@@ -4,9 +4,7 @@ import os.path as osp
 ROOT = '/'
 
 SUBFOLDER_TO_PERMALINK = {
-    ROOT: 'https://kaylielam03.wixsite.com/myportfolio',
-    'vda': 'https://vda-kaylielam.notion.site/vda-kaylielam/Visual-Design-Apprenticeship-Journal-b3e84cd456114f1aa913d58f4e1d7c17',
-    'resume': '../Kaylie_Lam_Resume.pdf',
+    ROOT: 'https://issaucsd.carrd.co/',
 }
 
 for subfolder, link in SUBFOLDER_TO_PERMALINK.items():
@@ -23,7 +21,7 @@ for subfolder, link in SUBFOLDER_TO_PERMALINK.items():
     f.write(
 f"""<html>
     <head>
-        <title>Kaylie Lam</title>
+        <title>ISSA @ UCSD</title>
         <meta http-equiv="refresh" content="0;url={link}" />
     </head>
     <body>
